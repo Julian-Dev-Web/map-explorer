@@ -1,0 +1,36 @@
+name: map_explorer
+description: "A drag-and-drop Philippine geography learning game."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.2.1
+  audioplayers: ^6.0.0
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_tts: ^3.8.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/maps/
+    - assets/images/characters/
+    - assets/images/regions/
+    - assets/images/islands/
+    - assets/images/achievements/
+    - assets/images/backgrounds/
+    - assets/audio/
